@@ -1,0 +1,288 @@
+body {
+	
+	font-family: verdana;
+  -webkit-background-size: cover;
+  
+	
+}
+html{
+	
+	
+}
+
+
+.home-bg {
+background: url(afbeeldingen/achtergrond-mac-voorbeeld.jpg) no-repeat center center fixed ;
+background-size: cover;
+}
+.future-bg { 
+background: url(afbeeldingen/bitsbyte.jpg) no-repeat center center fixed ;
+background-size: cover;
+}
+video{
+	position: relative;
+	top: 150px;
+	left: 390px;
+	border: 2px;
+	border-color: yellow;
+	
+}
+table {
+	position: relative;
+	color: white;
+	border: 2px solid silver;
+	left: 560px;
+	text-align: center;
+	
+	
+}
+ 
+p { 
+position: relative;
+font-size: 20px;
+left: 350px;
+top: 200px;
+color: white;
+
+}
+img { position: relative;
+
+
+}
+ul {
+	position: relative;
+	left: 150px;
+	size: 50px;
+	color: white;
+}
+#blok1 {
+	position:relative;
+	
+	left:410px;
+	width:46%;
+	height:50px;
+	border:5px solid red;
+	
+	
+}
+#blok3{
+	position: relative;
+font-size: 50px;
+left: 600px;
+top: 20px;
+color: white;
+font-family: arial black;
+text-shadow: 4px 2px black;
+	text-decoration: underline;
+}
+#image1 {
+	position: relative;
+	float:right;
+	top: 200px;
+}
+#image2 {
+	position: relative;
+	top: 200px;
+	float: left;
+}
+#blok5 {
+	color: white;
+	font-size: 20px;
+}
+audio{
+	position: relative;
+	left: 550px;
+	
+}
+#blok4 {
+	position: relative;
+	font-size: 30px;
+left: 280px;
+top: 200px;
+right: 550px;
+width: 1045px;
+	color: white;
+	background-color: grey;
+	border: 2px solid yellow;
+}
+.menu { 
+ display:inline-block;
+ text-align:center;
+ color:black;
+ background-color:green;
+ padding:5px;
+ margin:10px;
+ text-decoration:none;
+ font-family:verdana;
+ 
+}
+a.active,a:hover{
+	background: #29ADE5;
+	transition: .5s;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none;
+position: relative;
+
+}
+img {vertical-align: middle;
+position: relative;
+ margin-top: 10px;
+ margin-left: 5px;
+ left: 50px;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ margin-top: 250px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.footer-gray {
+  background-color: #EFEFEF;
+  width: 100%;
+}
+
+.footer-custom {
+  
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1008px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+  color: black;
+}
+
+
+
+
+
+.ftr-hdr {
+  color: #000;
+  font: 22px/1.4 'BebasNeueRegular', BebasNeue, 'Bebas Neue', Arial, sans-serif;
+  margin: 0 15px 0 0;
+  font-size: 18px;
+  color: black;
+}
+.footer-social {
+  text-align: center;
+  color: black;
+}
+
+.footer-social ul {
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  left: 200px;
+  color: black;
+}
+
+.footer-social li {
+  float: center;
+  margin: 0 15px 0 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+}
+.footer-legal {
+  padding: 15px 0 0;
+  clear: left;
+  position: relative;
+  left: 350px;
+top: 200px;
+  
+}
+
+
